@@ -3,7 +3,7 @@
  * collection of comparable values in their natural ordering.
  */
 public interface SortedCollection<T extends Comparable<T>> {
-
+    
     /**
      * Inserts a new data value into the sorted collection.
      * @param data the new value being inserted
