@@ -1,4 +1,4 @@
-public class BSTRotation {
+public class BSTRotation<T extends Comparable<T>> extends BinarySearchTree_Placeholder<T> {
     /**
      * Performs the rotation operation on the provided nodes within this tree.
      * When the provided child is a left child of the provided parent, this
